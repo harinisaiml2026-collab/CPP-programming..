@@ -71,10 +71,3 @@ int main()
  cout << "Average Mark: " << average << endl;
  return 0;
 }
-Output
-Student Grade Analyzer
----------------------
-Name Mark Grade
-Kumar 91 A 25
-Arun 85 B
-Bala 72 C
