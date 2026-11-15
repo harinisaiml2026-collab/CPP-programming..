@@ -102,5 +102,3 @@ int main()
  << stlQueueTime.count() << " microseconds" << endl;
  return 0;
 }
-Sample Output
-Custom Stack Time: 15 microseconds
