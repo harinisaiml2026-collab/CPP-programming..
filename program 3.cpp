@@ -6,7 +6,7 @@ class Matrix
 private:
  int data[2][2];
 public:
- Matrix(int a = 0, int b = 0, int c = 0, int d = 0) 12
+ Matrix(int a = 0, int b = 0, int c = 0, int d = 0) 
  {
  data[0][0] = a;
  data[0][1] = b;
@@ -32,7 +32,7 @@ public:
  {
  result.data[i][j] = 0;
  for (int k = 0; k < 2; k++)
- result.data[i][j] += data[i][k] * m.data[k][j]; 13
+ result.data[i][j] += data[i][k] * m.data[k][j]; 
  }
  }
  return result;
@@ -57,7 +57,7 @@ public:
 int main()
 {
  Matrix A(1, 2, 3, 4);
- Matrix B(5, 6, 7, 8); 14
+ Matrix B(5, 6, 7, 8); 
  Matrix sum = A + B;
  Matrix product = A * B;
  // Unit Tests
