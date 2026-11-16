@@ -7,7 +7,7 @@ class Student
 {
 public:
  string name;
- int mark; 22
+ int mark; 
  char grade;
 };
 int main()
@@ -31,7 +31,7 @@ int main()
  {
  if (s.mark >= 90)
  s.grade = 'A';
- else if (s.mark >= 75) 23
+ else if (s.mark >= 75) 
  s.grade = 'B';
  else if (s.mark >= 50)
  s.grade = 'C';
@@ -53,7 +53,7 @@ int main()
  });
  float average = (float)total / students.size();
  // Display results
- cout << "Student Grade Analyzer\n"; 24
+ cout << "Student Grade Analyzer\n"; 
  cout << "---------------------\n";
  cout << "Name\tMark\tGrade\n";
  for (Student s : students)
