@@ -7,7 +7,7 @@ using namespace chrono;
 template <class T>
 class MyStack
 {
-private: 17
+private: 
  T data[10000];
  int top;
 public:
@@ -34,7 +34,7 @@ private:
  int front, rear;
 public:
  MyQueue()
- { 18
+ { 
  front = 0;
  rear = -1;
  }
@@ -60,7 +60,7 @@ int main()
  for (int i = 0; i < N; i++)
  myStack.pop();
  auto end = high_resolution_clock::now();
- auto customStackTime = 19
+ auto customStackTime = 
  duration_cast<microseconds>(end - start);
  // STL Stack Benchmark
  start = high_resolution_clock::now();
@@ -87,7 +87,7 @@ int main()
  queue<int> stlQueue;
  for (int i = 0; i < N; i++)
  stlQueue.push(i);
- for (int i = 0; i < N; i++) 20
+ for (int i = 0; i < N; i++) 
  stlQueue.pop();
  end = high_resolution_clock::now();
  auto stlQueueTime =
